@@ -7,5 +7,8 @@ This bot lets you extract video urls from a provided url. I am not hosting this 
 To run your own version just run the following docker command and pass your bot token:
 
 ```sh
-docker run -d -e TELEGRAM_BOT_TOKEN='YOUR-TOKEN-HERE' ghcr.io/kuhltime/telegram-youtube-dl-bot:latest
+docker run\
+  -e TELEGRAM_BOT_TOKEN='YOUR-TOKEN-HERE'\
+  -d\
+  ghcr.io/kuhltime/telegram-youtube-dl-bot:latest
 ```
