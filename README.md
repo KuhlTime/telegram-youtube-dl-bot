@@ -2,6 +2,10 @@
   <img src="./assets/banner.png" alt="Banner" max-height="240px">
 </p>
 
-[![Telegram](https://img.shields.io/badge/Add%20to-Telegram-blue?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtOS40MTcgMTUuMTgxLS4zOTcgNS41ODRjLjU2OCAwIC44MTQtLjI0NCAxLjEwOS0uNTM3bDIuNjYzLTIuNTQ1IDUuNTE4IDQuMDQxYzEuMDEyLjU2NCAxLjcyNS4yNjcgMS45OTgtLjkzMWwzLjYyMi0xNi45NzIuMDAxLS4wMDFjLjMyMS0xLjQ5Ni0uNTQxLTIuMDgxLTEuNTI3LTEuNzE0bC0yMS4yOSA4LjE1MWMtMS40NTMuNTY0LTEuNDMxIDEuMzc0LS4yNDcgMS43NDFsNS40NDMgMS42OTMgMTIuNjQzLTcuOTExYy41OTUtLjM5NCAxLjEzNi0uMTc2LjY5MS4yMTh6IiBmaWxsPSIjMDM5YmU1Ii8+PC9zdmc+)](https://t.me/)
+This bot lets you extract video urls from a provided url. I am not hosting this bot myself, because I don't want be held responsable for any videos that might get requested through this bot.
 
-A simple telegram bot boilerplate written in NodeJS.
+To run your own version just run the following docker command and pass your bot token:
+
+```sh
+docker run -d -e TELEGRAM_BOT_TOKEN='YOUR-TOKEN-HERE' ghcr.io/kuhltime/telegram-youtube-dl-bot:latest
+```
